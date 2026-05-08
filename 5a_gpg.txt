@@ -1,0 +1,7 @@
+gpg --gen-key
+gpg --list-keys
+nano message1.txt
+gpg -e -r"karthi" message1.txt
+ls -l
+cat message1.txt.gpg
+gpg -d message1.txt.gpg
